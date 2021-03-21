@@ -1,0 +1,45 @@
+:root {
+  --dark-grey: #47514f;
+  --main-beige: #d3c4a7;
+  --dark-green: #22341f;
+  --light-grey: #b4b4be;
+  --dark-brown: #5a1c12;
+}
+
+/* body {
+  margin-top: 2em;
+} */
+
+div.nav-bar {
+  background-color: var(--dark-grey);
+  color: var(--light-grey);
+}
+
+.nav-menu > li {
+  list-style-type: none;
+  color: #b4b4be;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #b4b4be;
+  /* display: none; */
+}
+
+.nav-bar > li {
+  position: fixed;
+  top: 0;
+  right: 0;
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+}
+
+.logo {
+  padding: 0.5em;
+  font-size: large;
+}
