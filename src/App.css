@@ -4,7 +4,6 @@
   --main-beige: #d3c4a7;
   --dark-green: #22341f;
   --light-grey: #b4b4be;
-  --dark-brown: #5a1c12;
 }
 
 body {
@@ -238,4 +237,32 @@ a.views:hover {
   height: 40px;
   background: rgb(184, 179, 179);
   text-align: center;
+}
+
+@media screen and (min-width: 505px) {
+  .all-rooms {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 612px) {
+  .gallery {
+    text-align: center;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .all-rooms {
+    grid-template-columns: auto auto auto;
+  }
+
+  .search {
+    height: 50vh;
+  }
+
+  .search h3 {
+    margin-top: 0;
+  }
 }
