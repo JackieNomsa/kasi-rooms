@@ -1,10 +1,9 @@
 import React from "react";
 import "../index.css";
 import "../components/Footer";
-import { AiOutlineSearch } from "react-icons/ai";
 import { MdExpandMore } from "react-icons/md";
-import Footer from "../components/Footer";
 import Gallery from "./Gallery";
+import { AiOutlineSearch } from "react-icons/ai";
 
 function Home() {
   return (
@@ -20,7 +19,7 @@ function Home() {
           <form action="">
             <input type="text" placeholder="Enter Surburb/Location" />
             <br />
-            <button type>
+            <button type="submit">
               <AiOutlineSearch className="search-icon" />
               Search
             </button>
@@ -56,7 +55,6 @@ function Home() {
           image="https://source.unsplash.com/208x208"
           kasi="Summer greens"
         />
-        <Gallery image="https://source.unsplash.com/209x209" kasi="Kwamashu" />
       </div>
       <div>
         <h3 className="viewmore">
@@ -65,8 +63,6 @@ function Home() {
           </a>
         </h3>
       </div>
-
-      <Footer />
     </>
   );
 }

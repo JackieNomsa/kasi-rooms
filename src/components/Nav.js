@@ -23,33 +23,36 @@ function Nav() {
           <RiMenu4Line onClick={toggleNav} />
         </li>
         <ul className={navWidth ? "nav-menu active" : "nav-menu"}>
+          <span className="close-nav" onClick={toggleNav}>
+            X
+          </span>
           <li>
-            <Link to="/">
-              <AiTwotoneHome className="icon" onClick={toggleNav} />
+            <Link to="/" onClick={toggleNav}>
+              <AiTwotoneHome className="icon" />
               Home
             </Link>
           </li>
           <li>
-            <Link to="/">
-              <FcAbout className="icon" onClick={toggleNav} />
+            <Link to="/about" onClick={toggleNav}>
+              <FcAbout className="icon" />
               About
             </Link>
           </li>
           <li>
-            <Link to="/">
-              <AiOutlineSearch className="icon" onClick={toggleNav} />
+            <Link to="/search" onClick={toggleNav}>
+              <AiOutlineSearch className="icon" />
               Find Room
             </Link>
           </li>
           <li>
-            <Link to="/">
-              <FcAdvertising className="icon" onClick={toggleNav} />
-              Post Room
+            <Link to="/advertise" onClick={toggleNav}>
+              <FcAdvertising className="icon" />
+              Advertise Room
             </Link>
           </li>
           <li>
-            <Link to="/">
-              <MdPermContactCalendar className="icon" onClick={toggleNav} />
+            <Link to="/contact" onClick={toggleNav}>
+              <MdPermContactCalendar className="icon" />
               Contact
             </Link>
           </li>
