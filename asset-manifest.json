@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/kasi-rooms/static/css/main.307bd728.chunk.css",
+    "main.js": "/kasi-rooms/static/js/main.634cfcc7.chunk.js",
+    "main.js.map": "/kasi-rooms/static/js/main.634cfcc7.chunk.js.map",
+    "runtime-main.js": "/kasi-rooms/static/js/runtime-main.77a8243e.js",
+    "runtime-main.js.map": "/kasi-rooms/static/js/runtime-main.77a8243e.js.map",
+    "static/js/2.c617bf03.chunk.js": "/kasi-rooms/static/js/2.c617bf03.chunk.js",
+    "static/js/2.c617bf03.chunk.js.map": "/kasi-rooms/static/js/2.c617bf03.chunk.js.map",
+    "index.html": "/kasi-rooms/index.html",
+    "static/css/main.307bd728.chunk.css.map": "/kasi-rooms/static/css/main.307bd728.chunk.css.map",
+    "static/js/2.c617bf03.chunk.js.LICENSE.txt": "/kasi-rooms/static/js/2.c617bf03.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/kasi-rooms/static/media/kasi.8bb70b28.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77a8243e.js",
+    "static/js/2.c617bf03.chunk.js",
+    "static/css/main.307bd728.chunk.css",
+    "static/js/main.634cfcc7.chunk.js"
+  ]
+}
