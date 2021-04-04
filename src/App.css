@@ -13,83 +13,77 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
-.nav-menu > li {
-  list-style-type: none;
-}
-
-.nav-bar > li a {
-  color: var(--dark-green);
-  font-weight: bold;
-}
-
-.nav-bar > li {
-  background-color: rgb(241, 240, 240);
-}
-.nav-menu {
-  margin: 0;
-  padding: 0;
+.nav-bar {
+  background-color: #0d1d20;
+  width: 50vw;
   position: fixed;
   top: 0;
   left: 0;
-  background-color: var(--dark-grey);
-  padding: 1em;
-  transition: all 1s ease-in;
   display: none;
 }
 
-.nav-menu.active {
+.nav-bar.active {
   display: block;
-  transition: all 1s ease-in;
+}
+
+.nav-bar li {
+  padding: 2em 2em 2em 0;
+
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 1em;
+  border-bottom: 4px solid transparent;
+  transition: 0.3s;
+}
+
+.nav-bar li a:hover {
+  border-bottom: 4px solid green;
+  color: #0aeb8d;
+}
+
+.icon {
+  font-size: 2em;
+  margin-bottom: -0.3em;
+  margin-right: 0.4em;
 }
 
 .close-nav {
   color: #fff;
   font-size: 2em;
   font-weight: bold;
-  display: block;
-  position: relative;
-  left: 9em;
+
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .close-nav:hover {
-  color: #000;
-  transition: all 0.5s ease-in;
+  color: #0aeb8d;
 }
 
-ul li {
-  margin: 1.5em;
-  padding: 1em;
-  border-bottom: 0.2em solid transparent;
-  transition: all 0.5s ease-in-out;
-}
-ul li a {
-  padding: 2em;
-}
-ul li:hover {
-  border-bottom: 0.2em solid var(--dark-green);
-  color: var(--light-grey);
+li.logo a {
+  color: #0aeb8d;
+  font-weight: bold;
+  font-size: 1.4em;
+  text-decoration: none;
 }
 
-.nav-bar > li.logo {
+li.logo {
   position: fixed;
   top: 0;
   right: 0;
   list-style-type: none;
   display: inline;
-  /* background-color: var(--dark-grey); */
+  background-color: rgb(241, 240, 240);
   padding: 0.2em;
   z-index: 1;
 }
 
-.nav-bar li a {
-  text-decoration: none;
-  color: green;
-  font-size: 1.3em;
-  text-shadow: 0.5em 0.2em 1em green;
-}
-
-.nav-bar > li.menu-icon {
+li.menu-icon {
   position: fixed;
   top: 0;
   left: 0;
@@ -98,24 +92,9 @@ ul li:hover {
   color: #1e8294;
   cursor: pointer;
   display: inline;
-  /* background-color: var(--dark-grey); */
+  background-color: var(--dark-grey);
   padding: 0.2em;
   background-color: rgb(241, 240, 240);
-}
-ul li a {
-  text-decoration: none;
-  color: #fff;
-  transition: all 0.5s ease-in;
-}
-
-ul li a:hover {
-  color: var(--light-grey);
-}
-
-.icon {
-  font-size: 2em;
-  margin-bottom: -0.3em;
-  margin-right: 0.3em;
 }
 
 .logo {

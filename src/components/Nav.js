@@ -14,14 +14,14 @@ function Nav() {
   };
   window.onscroll = () => setNavWidth(false);
   return (
-    <>
-      <div className="nav-bar">
-        <li className="logo">
-          <Link to="/">Kasi Rooms</Link>
-        </li>
-        <li className="menu-icon">
-          <RiMenu4Line onClick={toggleNav} />
-        </li>
+    <div className="nav-logo">
+      <li className="logo">
+        <Link to="/">Kasi Rooms</Link>
+      </li>
+      <li className="menu-icon">
+        <RiMenu4Line onClick={toggleNav} />
+      </li>
+      <div className={navWidth ? "nav-bar active" : "nav-bar"}>
         <ul className={navWidth ? "nav-menu active" : "nav-menu"}>
           <span className="close-nav" onClick={toggleNav}>
             X
@@ -58,7 +58,7 @@ function Nav() {
           </li>
         </ul>
       </div>
-    </>
+    </div>
   );
 }
 export default Nav;
