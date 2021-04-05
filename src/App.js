@@ -7,7 +7,7 @@ import Search from "./components/Search";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
 import Footer from "./components/Footer";
-import { Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
