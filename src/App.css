@@ -330,17 +330,10 @@ textarea {
   padding: 1.5em;
 }
 
-/* @media screen and (min-width: 505px) {
-  .all-rooms {
-    width: 90%;
-    margin: auto;
-  }
-} */
-
-@media screen and (min-width: 612px) {
-}
-
 @media screen and (min-width: 800px) {
+  .nav-bar {
+    width: 40vw;
+  }
   .gallery {
     width: 70%;
   }
@@ -363,6 +356,9 @@ textarea {
 }
 
 @media screen and (min-width: 1000px) {
+  .nav-bar {
+    width: 35vw;
+  }
   .gallery {
     width: 70%;
   }
@@ -371,7 +367,20 @@ textarea {
   }
 }
 
+@media screen and (min-width: 1000px) {
+  .nav-bar {
+    width: 30vw;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .nav-bar {
+    width: 24vw;
+  }
+}
 @media screen and (max-width: 370px) {
+  .nav-bar {
+    width: 100vw;
+  }
   form input {
     padding: 0;
     width: 200px;

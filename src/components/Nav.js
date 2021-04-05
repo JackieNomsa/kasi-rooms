@@ -47,7 +47,7 @@ function Nav() {
           <li>
             <Link to="/advertise" onClick={toggleNav}>
               <FcAdvertising className="icon" />
-              Advertise Room
+              Advertise
             </Link>
           </li>
           <li>
